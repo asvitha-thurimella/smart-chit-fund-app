@@ -1,0 +1,189 @@
+/* Progress.css */
+
+.chit-container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafb;
+  border-radius: 12px;
+  margin-left: 250px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Input Section */
+.input-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.input-card label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.input-card input {
+  margin-top: 5px;
+  padding: 8px 12px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-card input:focus {
+  border-color: #4cafef;
+  box-shadow: 0px 0px 6px rgba(76, 175, 239, 0.4);
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-create {
+  background: #3498db;
+  color: white;
+}
+
+.btn-create:hover {
+  background: #217dbb;
+}
+
+.btn-mark {
+  background: #2ecc71;
+  color: white;
+}
+
+.btn-mark:hover {
+  background: #27ae60;
+}
+
+.btn-unmark {
+  background: #e74c3c;
+  color: white;
+}
+
+.btn-unmark:hover {
+  background: #c0392b;
+}
+
+/* Groups Section */
+.groups {
+  display: grid;
+  gap: 25px;
+}
+
+.group-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.group-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  padding: 12px;
+  border-radius: 8px;
+  background: #f0f4f8;
+  border: 1px solid #dfe6e9;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+/* Table */
+.members-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.members-table th,
+.members-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.members-table th {
+  background: #f4f6f8;
+  font-weight: 600;
+  color: #34495e;
+}
+
+.members-table td {
+  font-size: 14px;
+}
+
+.members-table tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* Dashboard Section */
+.dashboard {
+  margin-top: 40px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.dashboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  color: #555;
+}
+
+.dashboard li:last-child {
+  border-bottom: none;
+}
