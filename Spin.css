@@ -1,0 +1,133 @@
+/* Container */
+/* Container */
+/* Container */
+.spin-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  background: #f0f8ff; /* light blue background */
+}
+
+/* Title */
+.spin-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Add member input */
+.add-member {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-member input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  outline: none;
+}
+
+.add-btn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #007bff;
+}
+
+/* Wheel section */
+.wheel-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.wheel-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+/* Spin button */
+.spin-btn {
+  padding: 12px 25px;
+  background-color: #007bff; /* green */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.spin-btn:hover {
+  background-color: #0056b3;
+}
+
+.spin-btn:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+/* Winner info */
+.winner-info {
+  margin-top: 30px;
+  padding: 15px;
+  border: 2px solid #0056b3;
+  border-radius: 10px;
+  background: #e9f7ef;
+}
+
+.winner-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.share-buttons {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.share-buttons button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.share-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* No members */
+.no-members {
+  font-size: 16px;
+  color: #777;
+  margin-top: 15px;
+}
